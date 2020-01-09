@@ -10,7 +10,6 @@ class DBHelper {
   static get DATABASE_URL() {
     return `./data/restaurants.json`;
   }
-  // https://chris113377.github.io/sd140finalProject
 
   /**
    * Fetch all restaurants.
