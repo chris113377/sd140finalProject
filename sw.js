@@ -1,9 +1,9 @@
 const staticCacheName = 'v1';
 const filesToCache = [
   './',
-  // './css/styles.css',
-  // './index.html',
-  // './restaurant.html',
+  './css/styles.css',
+  'index.html',
+  'restaurant.html',
   // './restaurants.json',
   // './img/1.jpg',
   // './img/2.jpg',
@@ -15,9 +15,9 @@ const filesToCache = [
   // './img/8.jpg',
   // './img/9.jpg',
   // './img/10.jpg',
-  // './js/dbhelper.js',
-  // './js/main.js',
-  // './js/restaurant_info.js',
+  './js/dbhelper.js',
+  './js/main.js',
+  './js/restaurant_info.js',
 ];
 
 
