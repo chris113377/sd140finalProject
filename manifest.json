@@ -5,13 +5,14 @@
   "background_color": "#bbc5cd",
   "display": "standalone",
   "orientation": "portrait",
-  "Scope": "/",
+  "Scope": "https://chris113377.github.io/sd140finalProject/index.html",
   "start_url": "https://chris113377.github.io/sd140finalProject/index.html",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png"
+      // https://github.com/chris113377/sd140finalProject/blob/master/images/icons/icon-512x512.png
     },
     {
       "src": "images/icons/icon-96x96.png",
