@@ -49,5 +49,11 @@
       "type": "image/png"
     }
   ],
-  "splash_pages": null
+  "splash_pages": null,
+  "serviceworker": {
+    "src": "./sw.js",
+    "scope": ".",
+    "type": "",
+    "update_via_cache": "none"
+  }
 }

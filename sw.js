@@ -16,8 +16,7 @@ const filesToCache = [
   './img/10.jpg',
   './js/dbhelper.js',
   './js/main.js',
-  './js/restaurant_info.js',
-  './manifest.json'
+  './js/restaurant_info.js'
 ];
 
 
