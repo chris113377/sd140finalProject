@@ -9,9 +9,10 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 8000 // Change this to your server port
-    return `https://chris113377.github.io/sd140finalProject/data/restaurants.json`;
+    return `./data/restaurants.json`;
     
   }
+  // https://chris113377.github.io/sd140finalProject
   // http://localhost:${port}/data/restaurants.json
   /**
    * Fetch all restaurants.
@@ -144,19 +145,23 @@ class DBHelper {
    * Restaurant page URL.
    */
   static urlForRestaurant(restaurant) {
-    return (`https://chris113377.github.io/sd140finalProject/restaurant.html?id=${restaurant.id}`
-      // `./restaurant.html?id=${restaurant.id}`
+    return (
+      `./restaurant.html?id=${restaurant.id}`
       );
   }
+  // `https://chris113377.github.io/sd140finalProject/restaurant.html?id=${restaurant.id}`
+
 
   /**
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
-    return (`https://github.com/chris113377/sd140finalProject/tree/master/img/${restaurant.photograph}`
-      // `/img/${restaurant.photograph}`
+    return (
+      `./img/${restaurant.photograph}`
       );
   }
+  // `https://github.com/chris113377/sd140finalProject/tree/master/img/${restaurant.photograph}`
+
 
   /**
    * Map marker for a restaurant.

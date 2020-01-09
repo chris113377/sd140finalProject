@@ -1,4 +1,4 @@
-const staticCacheName = 'v2';
+const staticCacheName = 'v1';
 const filesToCache = [
   './',
   './css/styles.css',
