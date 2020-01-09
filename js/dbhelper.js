@@ -147,8 +147,6 @@ class DBHelper {
       `./restaurant.html?id=${restaurant.id}`
       );
   }
-  // `https://chris113377.github.io/sd140finalProject/restaurant.html?id=${restaurant.id}`
-
 
   /**
    * Restaurant image URL.
@@ -158,8 +156,6 @@ class DBHelper {
       `./img/${restaurant.photograph}`
       );
   }
-  // `https://github.com/chris113377/sd140finalProject/tree/master/img/${restaurant.photograph}`
-
 
   /**
    * Map marker for a restaurant.
