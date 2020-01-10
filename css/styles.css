@@ -273,3 +273,18 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+@media only screen and (max-width: 1195px) {
+  #reviews-list li {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /* iPhoneX screen */
+  .filter-options {
+    height: 155px;
+  }
+  .filter-options h2 {
+    line-height: 2;
+  }
+}
