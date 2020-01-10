@@ -133,7 +133,7 @@ nav h1 a {
 #restaurants-list {
   display: grid;
   grid-template-columns: repeat(3, 30%);
-  grid-template-rows: auto;
+  grid-template-rows: repeat(4, auto);
   background-color: #f3f3f3;
   list-style: outside none none;
   margin: 0;
