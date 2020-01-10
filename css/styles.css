@@ -133,6 +133,7 @@ nav h1 a {
 #restaurants-list {
   display: grid;
   grid-template-columns: repeat(3, 30%);
+  grid-template-rows: auto;
   background-color: #f3f3f3;
   list-style: outside none none;
   margin: 0;
@@ -285,7 +286,8 @@ nav h1 a {
   /* iPhoneX screen */
   #restaurants-list {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
   }
   .filter-options {
     height: 155px;
