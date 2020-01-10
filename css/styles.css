@@ -281,6 +281,10 @@ nav h1 a {
 }
 @media only screen and (max-width: 375px) {
   /* iPhoneX screen */
+  #restaurants-list {
+    display: flex;
+    width: 100%;
+  }
   .filter-options {
     height: 155px;
   }
