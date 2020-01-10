@@ -138,11 +138,12 @@ nav h1 a {
   text-align: center;
 }
 #restaurants-list li {
+  display: flex;
   background-color: #fff;
   border: 2px solid #ccc;
   font-family: Arial,sans-serif;
   margin: 15px;
-  min-height: 380px;
+  min-height: 300px;
   padding: 0 30px 25px;
   text-align: left;
   width: 270px;
@@ -281,7 +282,7 @@ nav h1 a {
 }
 @media only screen and (max-width: 375px) {
   /* iPhoneX screen */
-  #restaurants-list {
+  #restaurants-list li{
     display: flex;
     width: 100%;
   }
