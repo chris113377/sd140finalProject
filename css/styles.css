@@ -131,7 +131,8 @@ nav h1 a {
 
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: #f3f3f3;
   list-style: outside none none;
   margin: 0;
@@ -259,7 +260,7 @@ nav h1 a {
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
@@ -282,9 +283,9 @@ nav h1 a {
 }
 @media only screen and (max-width: 375px) {
   /* iPhoneX screen */
-  #restaurants-list li{
-    display: flex;
-    width: 100%;
+  #restaurants-list {
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .filter-options {
     height: 155px;
