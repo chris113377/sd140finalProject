@@ -46,7 +46,7 @@
   ],
 
   "serviceworker": {
-    "src": "./sw.js",
+    "src": "https://chris113377.github.io/sd140finalProject/sw.js",
     "scope": ".",
     "type": "",
     "update_via_cache": "none"
