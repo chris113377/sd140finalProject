@@ -277,22 +277,19 @@ nav h1 a {
   color: #666;
 }
 
-@media only screen and (max-width: 1195px) {
-  #reviews-list li {
-    width: 75%;
+@media only screen and (max-width: 1180px) {
+  #restaurants-list {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(5, auto);
   }
 }
+
 @media only screen and (max-width: 375px) {
   /* iPhoneX screen */
   #restaurants-list {
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-  }
-  .filter-options {
-    height: 155px;
-  }
-  .filter-options h2 {
-    line-height: 2;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(4, auto);
   }
 }
